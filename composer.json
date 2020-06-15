@@ -1,0 +1,24 @@
+{
+    "name": "dresong/laravel-shop",
+    "description": "a eshop written by laravel",
+    "lisence": "MIT",
+    "authors": [{
+        "name": "dresong",
+        "email": "dresong@dre.com"
+    }],
+    "replace": {
+        "dresong/laravel-shop-wap-member": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dresong\\LaravelShop\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dresong\\LaravelShop\\Wap\\Member\\Providers\\MemberServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "dresong/laravel-shop-wap-member",
+    "description": "a eshop written by laravel",
+    "lisence": "MIT",
+    "authors": [{
+        "name": "dresong",
+        "email": "dresong@dre.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dresong\\LaravelShop\\Wap\\Member\\": ""
+        }
+    }
+}
